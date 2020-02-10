@@ -6,7 +6,7 @@
     I don't like to put things off. I try to do everything as quickly as possible and on time.
     Now I am learning, and I am ready to learn and develop constantly.
 4.  All at Junior level:
-    HTML / CSS coding: HTML5, CSS3, Sass/Less, Bootstrap, Responsive and cross-browser coding
+    HTML / CSS coding: HTML5, CSS3, Sass, Responsive and cross-browser coding
     JavaScript versions: ECMAScript 5-7
     Backend experience: Node.js
     Project builders: WebPack
