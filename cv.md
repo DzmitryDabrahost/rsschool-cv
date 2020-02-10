@@ -17,7 +17,7 @@
     
     My last project to JavaScript:
 
-    function router() {
+    ```function router() {
     const headerContainer = document.getElementsByClassName('header-container')[0],
           contentContainer = document.getElementsByClassName('content-container')[0],
           footerContainer = document.getElementsByClassName('footer-container')[0],
@@ -40,7 +40,7 @@
     footer.render().then(html => {
         footerContainer.innerHTML = html;
     });
-}
+}```
 
 6-7.Courses IT-Academy 03/2019 - 05/2019 - Website development HTML, CSS, JavaScript;
     Courses IT-Academy 05/2019 - 09/2019 - JavaScript web application development
