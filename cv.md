@@ -15,34 +15,35 @@
     GitHub systems: GitHub
 5.  Code examples (LATEST) :
     
-    My last project to JavaScript:
 
     ```function router() {
-    const headerContainer = document.getElementsByClassName('header-container')[0],
-          contentContainer = document.getElementsByClassName('content-container')[0],
-          footerContainer = document.getElementsByClassName('footer-container')[0],
-          header = new Header(),
-          footer = new Footer();
+        const headerContainer = document.getElementsByClassName('header-container')[0],
+            contentContainer = document.getElementsByClassName('content-container')[0],
+            footerContainer = document.getElementsByClassName('footer-container')[0],
+            header = new Header(),
+            footer = new Footer();
 
-    header.render().then(html => {
-        headerContainer.innerHTML = html;
-    });
+        header.render().then(html => {
+            headerContainer.innerHTML = html;
+        });
 
-    const request = Utils.parseRequestURL(),
-        parsedURL = `/${request.resource || ''}${request.id ? '/:id' : ''}${request.action ? `/${request.action}` : ''}`,
-        page = Routes[parsedURL] ? new Routes[parsedURL]() : new Error404();
+        const request = Utils.parseRequestURL(),
+            parsedURL = `/${request.resource || ''}${request.id ? '/:id' : ''}${request.action ? `/${request.action}` : ''}`,
+            page = Routes[parsedURL] ? new Routes[parsedURL]() : new Error404();
 
-    page.render().then(html => {
-        contentContainer.innerHTML = html;
-        page.afterRender();
-    });
+        page.render().then(html => {
+            contentContainer.innerHTML = html;
+            page.afterRender();
+        });
 
-    footer.render().then(html => {
-        footerContainer.innerHTML = html;
-    });
-}```
+        footer.render().then(html => {
+            footerContainer.innerHTML = html;
+        });
+    }```
 
-6-7.Courses IT-Academy 03/2019 - 05/2019 - Website development HTML, CSS, JavaScript;
+6.  Courses RSSchool 02/2020 - 07/2020 JavaScript
     Courses IT-Academy 05/2019 - 09/2019 - JavaScript web application development
+    Courses IT-Academy 03/2019 - 05/2019 - Website development HTML, CSS, JavaScript;
+    
 8.  English is my very big problem. I studied Spanish at school and Institute.
     Now I have been working with a tutor for 3 months to improve my English skills. I hope that by the time I am hired at EPAM, my English  level will be at the right level.
